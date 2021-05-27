@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A635645265F961000157EDE /* xlsxParserApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A635644265F961000157EDE /* xlsxParserApp.swift */; };
+		6A635647265F961000157EDE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A635646265F961000157EDE /* ContentView.swift */; };
+		6A635649265F963200157EDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A635648265F963200157EDE /* Assets.xcassets */; };
+		6A63564C265F963200157EDE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A63564B265F963200157EDE /* Preview Assets.xcassets */; };
+		6A635657265F963600157EDE /* xlsxParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A635656265F963600157EDE /* xlsxParserTests.swift */; };
+		6A635662265F963600157EDE /* xlsxParserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A635661265F963600157EDE /* xlsxParserUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6A635653265F963600157EDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A635639265F961000157EDE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A635640265F961000157EDE;
+			remoteInfo = xlsxParser;
+		};
+		6A63565E265F963600157EDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A635639265F961000157EDE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A635640265F961000157EDE;
+			remoteInfo = xlsxParser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6A635641265F961000157EDE /* xlsxParser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xlsxParser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A635644265F961000157EDE /* xlsxParserApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xlsxParserApp.swift; sourceTree = "<group>"; };
+		6A635646265F961000157EDE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6A635648265F963200157EDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6A63564B265F963200157EDE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6A63564D265F963200157EDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A635652265F963600157EDE /* xlsxParserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = xlsxParserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A635656265F963600157EDE /* xlsxParserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xlsxParserTests.swift; sourceTree = "<group>"; };
+		6A635658265F963600157EDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A63565D265F963600157EDE /* xlsxParserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = xlsxParserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A635661265F963600157EDE /* xlsxParserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xlsxParserUITests.swift; sourceTree = "<group>"; };
+		6A635663265F963600157EDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A63563E265F961000157EDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A63564F265F963600157EDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A63565A265F963600157EDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A635638265F960F00157EDE = {
+			isa = PBXGroup;
+			children = (
+				6A635643265F961000157EDE /* xlsxParser */,
+				6A635655265F963600157EDE /* xlsxParserTests */,
+				6A635660265F963600157EDE /* xlsxParserUITests */,
+				6A635642265F961000157EDE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6A635642265F961000157EDE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A635641265F961000157EDE /* xlsxParser.app */,
+				6A635652265F963600157EDE /* xlsxParserTests.xctest */,
+				6A63565D265F963600157EDE /* xlsxParserUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A635643265F961000157EDE /* xlsxParser */ = {
+			isa = PBXGroup;
+			children = (
+				6A635644265F961000157EDE /* xlsxParserApp.swift */,
+				6A635646265F961000157EDE /* ContentView.swift */,
+				6A635648265F963200157EDE /* Assets.xcassets */,
+				6A63564D265F963200157EDE /* Info.plist */,
+				6A63564A265F963200157EDE /* Preview Content */,
+			);
+			path = xlsxParser;
+			sourceTree = "<group>";
+		};
+		6A63564A265F963200157EDE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6A63564B265F963200157EDE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6A635655265F963600157EDE /* xlsxParserTests */ = {
+			isa = PBXGroup;
+			children = (
+				6A635656265F963600157EDE /* xlsxParserTests.swift */,
+				6A635658265F963600157EDE /* Info.plist */,
+			);
+			path = xlsxParserTests;
+			sourceTree = "<group>";
+		};
+		6A635660265F963600157EDE /* xlsxParserUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6A635661265F963600157EDE /* xlsxParserUITests.swift */,
+				6A635663265F963600157EDE /* Info.plist */,
+			);
+			path = xlsxParserUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A635640265F961000157EDE /* xlsxParser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A635666265F963600157EDE /* Build configuration list for PBXNativeTarget "xlsxParser" */;
+			buildPhases = (
+				6A63563D265F961000157EDE /* Sources */,
+				6A63563E265F961000157EDE /* Frameworks */,
+				6A63563F265F961000157EDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = xlsxParser;
+			productName = xlsxParser;
+			productReference = 6A635641265F961000157EDE /* xlsxParser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6A635651265F963600157EDE /* xlsxParserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A635669265F963600157EDE /* Build configuration list for PBXNativeTarget "xlsxParserTests" */;
+			buildPhases = (
+				6A63564E265F963600157EDE /* Sources */,
+				6A63564F265F963600157EDE /* Frameworks */,
+				6A635650265F963600157EDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A635654265F963600157EDE /* PBXTargetDependency */,
+			);
+			name = xlsxParserTests;
+			productName = xlsxParserTests;
+			productReference = 6A635652265F963600157EDE /* xlsxParserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6A63565C265F963600157EDE /* xlsxParserUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A63566C265F963600157EDE /* Build configuration list for PBXNativeTarget "xlsxParserUITests" */;
+			buildPhases = (
+				6A635659265F963600157EDE /* Sources */,
+				6A63565A265F963600157EDE /* Frameworks */,
+				6A63565B265F963600157EDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A63565F265F963600157EDE /* PBXTargetDependency */,
+			);
+			name = xlsxParserUITests;
+			productName = xlsxParserUITests;
+			productReference = 6A63565D265F963600157EDE /* xlsxParserUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A635639265F961000157EDE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					6A635640265F961000157EDE = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					6A635651265F963600157EDE = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 6A635640265F961000157EDE;
+					};
+					6A63565C265F963600157EDE = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 6A635640265F961000157EDE;
+					};
+				};
+			};
+			buildConfigurationList = 6A63563C265F961000157EDE /* Build configuration list for PBXProject "xlsxParser" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6A635638265F960F00157EDE;
+			productRefGroup = 6A635642265F961000157EDE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A635640265F961000157EDE /* xlsxParser */,
+				6A635651265F963600157EDE /* xlsxParserTests */,
+				6A63565C265F963600157EDE /* xlsxParserUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A63563F265F961000157EDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A63564C265F963200157EDE /* Preview Assets.xcassets in Resources */,
+				6A635649265F963200157EDE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A635650265F963600157EDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A63565B265F963600157EDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A63563D265F961000157EDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A635647265F961000157EDE /* ContentView.swift in Sources */,
+				6A635645265F961000157EDE /* xlsxParserApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A63564E265F963600157EDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A635657265F963600157EDE /* xlsxParserTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A635659265F963600157EDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A635662265F963600157EDE /* xlsxParserUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6A635654265F963600157EDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A635640265F961000157EDE /* xlsxParser */;
+			targetProxy = 6A635653265F963600157EDE /* PBXContainerItemProxy */;
+		};
+		6A63565F265F963600157EDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A635640265F961000157EDE /* xlsxParser */;
+			targetProxy = 6A63565E265F963600157EDE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6A635664265F963600157EDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6A635665265F963600157EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A635667265F963600157EDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"xlsxParser/Preview Content\"";
+				DEVELOPMENT_TEAM = 637JS3JU7M;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = xlsxParser/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yumiya.xlsxParser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6A635668265F963600157EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"xlsxParser/Preview Content\"";
+				DEVELOPMENT_TEAM = 637JS3JU7M;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = xlsxParser/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yumiya.xlsxParser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6A63566A265F963600157EDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 637JS3JU7M;
+				INFOPLIST_FILE = xlsxParserTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yumiya.xlsxParserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/xlsxParser.app/xlsxParser";
+			};
+			name = Debug;
+		};
+		6A63566B265F963600157EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 637JS3JU7M;
+				INFOPLIST_FILE = xlsxParserTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yumiya.xlsxParserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/xlsxParser.app/xlsxParser";
+			};
+			name = Release;
+		};
+		6A63566D265F963600157EDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 637JS3JU7M;
+				INFOPLIST_FILE = xlsxParserUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yumiya.xlsxParserUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = xlsxParser;
+			};
+			name = Debug;
+		};
+		6A63566E265F963600157EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 637JS3JU7M;
+				INFOPLIST_FILE = xlsxParserUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yumiya.xlsxParserUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = xlsxParser;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A63563C265F961000157EDE /* Build configuration list for PBXProject "xlsxParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A635664265F963600157EDE /* Debug */,
+				6A635665265F963600157EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A635666265F963600157EDE /* Build configuration list for PBXNativeTarget "xlsxParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A635667265F963600157EDE /* Debug */,
+				6A635668265F963600157EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A635669265F963600157EDE /* Build configuration list for PBXNativeTarget "xlsxParserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A63566A265F963600157EDE /* Debug */,
+				6A63566B265F963600157EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A63566C265F963600157EDE /* Build configuration list for PBXNativeTarget "xlsxParserUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A63566D265F963600157EDE /* Debug */,
+				6A63566E265F963600157EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A635639265F961000157EDE /* Project object */;
+}
