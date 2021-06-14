@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,9 @@
 		6A63564C265F963200157EDE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A63564B265F963200157EDE /* Preview Assets.xcassets */; };
 		6A635657265F963600157EDE /* xlsxParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A635656265F963600157EDE /* xlsxParserTests.swift */; };
 		6A635662265F963600157EDE /* xlsxParserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A635661265F963600157EDE /* xlsxParserUITests.swift */; };
+		7B64B391EFD38293723949E2 /* Pods_xlsxParser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00E242B17B810E5610D7BA43 /* Pods_xlsxParser.framework */; };
+		B0B9BAC79A90329903588FA4 /* Pods_xlsxParserTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A2C996C88B0C068EA056B29 /* Pods_xlsxParserTests.framework */; };
+		ECC3FFBFA38589B93133C542 /* Pods_xlsxParser_xlsxParserUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68280965D891B1F01097467F /* Pods_xlsxParser_xlsxParserUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +36,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00E242B17B810E5610D7BA43 /* Pods_xlsxParser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_xlsxParser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B2ED744807E0BF4A9E326BB /* Pods-xlsxParser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xlsxParser.debug.xcconfig"; path = "Target Support Files/Pods-xlsxParser/Pods-xlsxParser.debug.xcconfig"; sourceTree = "<group>"; };
+		3A2C996C88B0C068EA056B29 /* Pods_xlsxParserTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_xlsxParserTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FF5754100187473C470F003 /* Pods-xlsxParser-xlsxParserUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xlsxParser-xlsxParserUITests.release.xcconfig"; path = "Target Support Files/Pods-xlsxParser-xlsxParserUITests/Pods-xlsxParser-xlsxParserUITests.release.xcconfig"; sourceTree = "<group>"; };
+		68280965D891B1F01097467F /* Pods_xlsxParser_xlsxParserUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_xlsxParser_xlsxParserUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A635641265F961000157EDE /* xlsxParser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xlsxParser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A635644265F961000157EDE /* xlsxParserApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xlsxParserApp.swift; sourceTree = "<group>"; };
 		6A635646265F961000157EDE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +53,11 @@
 		6A63565D265F963600157EDE /* xlsxParserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = xlsxParserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A635661265F963600157EDE /* xlsxParserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xlsxParserUITests.swift; sourceTree = "<group>"; };
 		6A635663265F963600157EDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A635672265F9EA200157EDE /* xlsxParser.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = xlsxParser.entitlements; sourceTree = "<group>"; };
+		6F015439AE8681C5956648DA /* Pods-xlsxParser-xlsxParserUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xlsxParser-xlsxParserUITests.debug.xcconfig"; path = "Target Support Files/Pods-xlsxParser-xlsxParserUITests/Pods-xlsxParser-xlsxParserUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		74D5026BCB7B91DCEF980AE6 /* Pods-xlsxParserTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xlsxParserTests.debug.xcconfig"; path = "Target Support Files/Pods-xlsxParserTests/Pods-xlsxParserTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B2C1C8DA4FFBA7B9416943F4 /* Pods-xlsxParser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xlsxParser.release.xcconfig"; path = "Target Support Files/Pods-xlsxParser/Pods-xlsxParser.release.xcconfig"; sourceTree = "<group>"; };
+		F3416526929BC7BAD7945B20 /* Pods-xlsxParserTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xlsxParserTests.release.xcconfig"; path = "Target Support Files/Pods-xlsxParserTests/Pods-xlsxParserTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B64B391EFD38293723949E2 /* Pods_xlsxParser.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0B9BAC79A90329903588FA4 /* Pods_xlsxParserTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECC3FFBFA38589B93133C542 /* Pods_xlsxParser_xlsxParserUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +95,8 @@
 				6A635655265F963600157EDE /* xlsxParserTests */,
 				6A635660265F963600157EDE /* xlsxParserUITests */,
 				6A635642265F961000157EDE /* Products */,
+				CE05B79D3D45BA00113C87FF /* Pods */,
+				8E0619B1711474337B974EDF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,6 +113,7 @@
 		6A635643265F961000157EDE /* xlsxParser */ = {
 			isa = PBXGroup;
 			children = (
+				6A635672265F9EA200157EDE /* xlsxParser.entitlements */,
 				6A635644265F961000157EDE /* xlsxParserApp.swift */,
 				6A635646265F961000157EDE /* ContentView.swift */,
 				6A635648265F963200157EDE /* Assets.xcassets */,
@@ -130,6 +149,29 @@
 			path = xlsxParserUITests;
 			sourceTree = "<group>";
 		};
+		8E0619B1711474337B974EDF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00E242B17B810E5610D7BA43 /* Pods_xlsxParser.framework */,
+				68280965D891B1F01097467F /* Pods_xlsxParser_xlsxParserUITests.framework */,
+				3A2C996C88B0C068EA056B29 /* Pods_xlsxParserTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE05B79D3D45BA00113C87FF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2B2ED744807E0BF4A9E326BB /* Pods-xlsxParser.debug.xcconfig */,
+				B2C1C8DA4FFBA7B9416943F4 /* Pods-xlsxParser.release.xcconfig */,
+				6F015439AE8681C5956648DA /* Pods-xlsxParser-xlsxParserUITests.debug.xcconfig */,
+				4FF5754100187473C470F003 /* Pods-xlsxParser-xlsxParserUITests.release.xcconfig */,
+				74D5026BCB7B91DCEF980AE6 /* Pods-xlsxParserTests.debug.xcconfig */,
+				F3416526929BC7BAD7945B20 /* Pods-xlsxParserTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +179,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6A635666265F963600157EDE /* Build configuration list for PBXNativeTarget "xlsxParser" */;
 			buildPhases = (
+				90E39B118E955602C448D225 /* [CP] Check Pods Manifest.lock */,
 				6A63563D265F961000157EDE /* Sources */,
 				6A63563E265F961000157EDE /* Frameworks */,
 				6A63563F265F961000157EDE /* Resources */,
+				A823F4A4B17CA62E8EA44262 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +198,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6A635669265F963600157EDE /* Build configuration list for PBXNativeTarget "xlsxParserTests" */;
 			buildPhases = (
+				0440FC1302D0B454F33A41B1 /* [CP] Check Pods Manifest.lock */,
 				6A63564E265F963600157EDE /* Sources */,
 				6A63564F265F963600157EDE /* Frameworks */,
 				6A635650265F963600157EDE /* Resources */,
@@ -172,9 +217,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6A63566C265F963600157EDE /* Build configuration list for PBXNativeTarget "xlsxParserUITests" */;
 			buildPhases = (
+				D0C97FC1EF55E5447DE32510 /* [CP] Check Pods Manifest.lock */,
 				6A635659265F963600157EDE /* Sources */,
 				6A63565A265F963600157EDE /* Frameworks */,
 				6A63565B265F963600157EDE /* Resources */,
+				7DBFD8ADF9518530CE872EEA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,6 +300,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0440FC1302D0B454F33A41B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-xlsxParserTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7DBFD8ADF9518530CE872EEA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-xlsxParser-xlsxParserUITests/Pods-xlsxParser-xlsxParserUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-xlsxParser-xlsxParserUITests/Pods-xlsxParser-xlsxParserUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-xlsxParser-xlsxParserUITests/Pods-xlsxParser-xlsxParserUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90E39B118E955602C448D225 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-xlsxParser-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A823F4A4B17CA62E8EA44262 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-xlsxParser/Pods-xlsxParser-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-xlsxParser/Pods-xlsxParser-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-xlsxParser/Pods-xlsxParser-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0C97FC1EF55E5447DE32510 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-xlsxParser-xlsxParserUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6A63563D265F961000157EDE /* Sources */ = {
@@ -414,10 +564,13 @@
 		};
 		6A635667265F963600157EDE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B2ED744807E0BF4A9E326BB /* Pods-xlsxParser.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = xlsxParser/xlsxParser.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0.1;
 				DEVELOPMENT_ASSET_PATHS = "\"xlsxParser/Preview Content\"";
 				DEVELOPMENT_TEAM = 637JS3JU7M;
 				ENABLE_PREVIEWS = YES;
@@ -427,6 +580,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yumiya.xlsxParser;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -436,10 +590,13 @@
 		};
 		6A635668265F963600157EDE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2C1C8DA4FFBA7B9416943F4 /* Pods-xlsxParser.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = xlsxParser/xlsxParser.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0.1;
 				DEVELOPMENT_ASSET_PATHS = "\"xlsxParser/Preview Content\"";
 				DEVELOPMENT_TEAM = 637JS3JU7M;
 				ENABLE_PREVIEWS = YES;
@@ -449,6 +606,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yumiya.xlsxParser;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -458,6 +616,7 @@
 		};
 		6A63566A265F963600157EDE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74D5026BCB7B91DCEF980AE6 /* Pods-xlsxParserTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -480,6 +639,7 @@
 		};
 		6A63566B265F963600157EDE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3416526929BC7BAD7945B20 /* Pods-xlsxParserTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,6 +662,7 @@
 		};
 		6A63566D265F963600157EDE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F015439AE8681C5956648DA /* Pods-xlsxParser-xlsxParserUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -522,6 +683,7 @@
 		};
 		6A63566E265F963600157EDE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FF5754100187473C470F003 /* Pods-xlsxParser-xlsxParserUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
